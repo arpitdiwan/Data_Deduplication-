@@ -4,3 +4,9 @@ Data deduplication looks for redundancy of sequences of bytes across very large 
 Who uses data deduplication and why?
 
 Deduplication is ideal for highly redundant operations like backup, which requires repeatedly copying and storing the same data set multiple times for recovery purposes over 30- to 90-day periods. As a result, enterprises of all sizes rely on backup and recovery with deduplication for fast, reliable, and cost-effective backup and recovery.
+
+Main Libraries used in this application are PyQt5 for GUI, Sockets for establishing the TCP, hashlib for generating hash values and Sqlite For the database
+
+First start the server_core.py in server folder
+then start the client_log.py
+
